@@ -11,7 +11,7 @@ h1 {
   font-family: "Lobster", cursive;
   font-size: 2.8125rem;
   font-weight: 900;
-  margin-top: 3.125rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -22,12 +22,13 @@ h2,
 h3 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   padding-bottom: 1rem;
+  margin-top: 3rem;
 }
 
 hr {
-  border-color: #eaf6f6;
+  border-color: #54545475;
   border-style: dotted none none none;
   border-width: 0.5rem;
   margin: 7.375rem auto 7.375rem auto;
@@ -41,27 +42,15 @@ a {
 }
 
 p {
-  color: #3a3f44;
+  color: #545454;
   line-height: 2;
   margin: 0;
+  font-weight: bold;
 }
 
 /***********************CLASS SELECTORS***********************/
 
-/* .c-nav {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-  max-width: 1600px;
-}
-
-.s-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 1040;
-  background: #fefaf6;
-} */
+/* Images */
 
 .header-icons {
   animation-duration: 5s;
@@ -97,24 +86,38 @@ p {
   width: 3.5%;
 }
 
+.mountain-img {
+  border-radius: 2%;
+  width: 35%;
+}
+
+.profile-photo {
+  width: 35%;
+  margin: 4rem 0 0 0;
+}
+
+.first-skill-img {
+  float: left;
+  margin-right: 1.875rem;
+  width: 25%;
+}
+
+.second-skill-img {
+  float: right;
+  margin-left: 1.875rem;
+  width: 25%;
+}
+
+/* *** */
+
 .pro {
   text-decoration: underline;
 }
 
-.mountain-img {
-  border-radius: 2%;
-  width: 30%;
-}
-
 .top-container {
   background-color: #eaf6f6;
-  padding-top: 12.5rem;
+  padding-top: 8rem;
   position: relative;
-}
-
-#top-container-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
 }
 
 .middle-container {
@@ -134,30 +137,13 @@ p {
 }
 
 .profile {
-  width: 50%;
+  width: 40%;
   margin: auto;
-}
-
-.profile-photo {
-  width: 20%;
-  margin: 4rem 0 0 0;
-}
-
-.first-skill-img {
-  float: left;
-  margin-right: 1.875rem;
-  width: 25%;
-}
-
-.second-skill-img {
-  float: right;
-  margin-left: 1.875rem;
-  width: 25%;
 }
 
 .skill-row {
   line-height: 2;
-  margin: 6.25rem auto 6.25rem auto;
+  margin: 4rem auto 6.25rem auto;
   text-align: left;
   width: 50%;
 }
@@ -199,7 +185,7 @@ p {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  padding: 0 1rem 0.75rem 1rem;
+  padding: 0 0.5rem 0.75rem 0.5rem;
   margin: 2.5rem auto 1rem auto;
   text-decoration: none;
   display: inline-block;
@@ -224,4 +210,13 @@ p {
   color: #eaf6f6;
   font-size: 0.6rem;
   margin: 0 auto;
+}
+
+#top-container-h1 {
+  font-size: 5rem;
+}
+
+#top-container-h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
