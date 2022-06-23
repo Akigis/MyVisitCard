@@ -23,15 +23,14 @@ h3 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  padding-bottom: 1rem;
-  margin-top: 3rem;
+  padding-bottom: 5px;
+  margin-top: 1.5rem;
 }
 
 hr {
-  border-color: #54545475;
-  border-style: dotted none none none;
-  border-width: 0.4rem;
-  margin: 7.375rem auto 7.375rem auto;
+  border: dotted #54545475 0.4rem;
+  border-bottom: none;
+  margin: 6rem auto;
   width: 10%;
 }
 
@@ -141,7 +140,7 @@ ul {
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 0.7rem 0 0.5rem 0;
   position: relative;
 }
 
@@ -209,6 +208,15 @@ ul {
   text-decoration: none;
 }
 
+.flaticon-link {
+  text-decoration: none;
+  color: #eaf6f6;
+}
+
+.flaticon-link:hover {
+  color: #54545475;
+}
+
 /***********************ID SELECTORS***********************/
 
 #copyrighting {
@@ -217,12 +225,15 @@ ul {
   font-weight: 400;
   margin: 0;
   padding: 1rem 0 0;
+  text-decoration: none;
 }
 
 #flaticon-para {
   color: #eaf6f6;
   font-size: 0.6rem;
   margin: 0 auto;
+  padding-top: 0.5rem;
+  text-decoration: none;
 }
 
 #top-container-h1 {
